@@ -12,8 +12,6 @@ int main()
     for(i=0;i<n;i++)
     {
         for (j=i+1;j<n;j++)
-        {
-            for(j=i+1;j<n;j++)
             {
                 if(num[i]>num[j])
                 {
@@ -25,3 +23,7 @@ int main()
             }
 }
 printf("\n The numbers in ascending order are:\n");
+for (i=0;i<n;i++)
+printf("%d\t",num[i]);
+return 0;
+}
